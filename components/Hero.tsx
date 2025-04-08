@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Button } from "./ui/button";
-import { Facebook, Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 

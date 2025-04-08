@@ -1,12 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import {
-  FaFacebookF,
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
-  FaTwitter,
-  FaYoutube,
 } from "react-icons/fa";
 
 const Footer = () => {
