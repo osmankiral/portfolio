@@ -1,13 +1,8 @@
 import React from "react";
 import {
-  FaPencilRuler,
   FaLaptopCode,
-  FaMobileAlt,
-  FaPaintBrush,
   FaServer,
-  FaCloud,
   FaDatabase,
-  FaLock,
   FaCode,
 } from "react-icons/fa";
 
