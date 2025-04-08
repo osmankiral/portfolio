@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const AboutMe = () => {
   const skills = [
     { name: "Frontend Development", percent: 90 },
@@ -10,18 +8,10 @@ const AboutMe = () => {
   return (
     <section id="about" className="py-16">
       <div className="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start gap-10">
-        <div className="flex">
-          <Image
-            src="/profile.jpg"
-            alt="Profile Photo"
-            width={500}
-            height={500}
-            className="object-cover rounded-full"
-            priority
-          />
-        </div>
         <div className="flex-1 ">
-          <h2 className="text-4xl font-bold mb-4 text-amber-500">About Me</h2>
+          <h2 className="text-4xl font-bold mb-4 text-amber-500 text-center">
+            About Me
+          </h2>
           <p className="mb-4 text-gray-500">
             I am a Computer Engineering graduate and a full stack developer. I
             develop robust, efficient, and scalable applications using modern

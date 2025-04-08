@@ -10,7 +10,7 @@ const Hero = () => {
     <div className="flex-1">
       <section
         id="home"
-        className="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-6"
+        className="max-w-6xl mx-auto px-4 py-3 md:py-16 flex flex-col md:flex-row items-center gap-6"
       >
         <div className="flex-1">
           <p className="text-gray-400 text-xl mb-4">Hello I am </p>
@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex-1 flex flex-col justify-center items-center">
-          <div className="relative w-64 h-64 md:h-80 lg:w-[400px]">
+          <div className="relative w-80 h-80 lg:w-[400px] md:block hidden">
             <Image
               src="/profile.jpg"
               alt="Profile Photo"
@@ -46,7 +46,7 @@ const Hero = () => {
               priority
             />
           </div>
-          <div className="flex items-center gap-3 mt-26 ">
+          <div className="flex items-center gap-3 mt-3 md:mt-26">
             <Button
               className="hover:bg-amber-400 hover:scale-125 transition-all duration-700 hover:text-white cursor-pointer"
               variant={"secondary"}
