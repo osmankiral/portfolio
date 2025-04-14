@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     default: siteMetadata.title,
   },
   description: siteMetadata.description,
+  alternates: {
+    canonical: siteMetadata.siteUrl,
+  },
   openGraph: {
     title: siteMetadata.title,
     description: siteMetadata.description,
@@ -60,6 +63,7 @@ export const metadata: Metadata = {
     "og:see_also:github": siteMetadata.github,
     "og:see_also:linkedin": siteMetadata.linkedin,
     "og:see_also:instagram": siteMetadata.instagram,
+    "keywords": "Osman Kıral, Frontend Developer, Full-Stack Developer, React, Next.js, TypeScript, Node.js, Portfolio"
   }
 };
 
